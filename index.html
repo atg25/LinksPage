@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Andrew Gardner Links</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/silverLink.png">
+    <link rel="stylesheet" href="StyleSheets/main.css">
     <script src="https://kit.fontawesome.com/d4d7dbed21.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img id="pfp"
-             src="images/PFP.jpg"
-             alt="Picture of me"
-        >
-        <h2 id = name class = text> Andrew Gardner </h2>
-        <p id = blurb class = text>Thanks for visiting my page! Below you'll find my resume, LinkedIn, and GitHub</p>
-    </header>
     <main>
         <form>
+                <img id="pfp"
+                     src="images/PFP.jpg"
+                     alt="Picture of me"
+                >
+                <h2 id = name class = text> Andrew Gardner </h2>
+                <p id = blurb class = text>Thanks for visiting my page! Below you'll find my resume, LinkedIn, and GitHub</p>
             <button id="res"
                     class="btn"
                     type="submit"
                     formtarget="_blank"
-                    formaction="resume.pdf">
+                    formaction="AndrewG-Resume.pdf">
                 <i class="fa-solid fa-clipboard-list fa-xl"></i>
                 <strong>Resume</strong>
             </button>
@@ -43,9 +42,16 @@
                 <i class="fa-solid fa-laptop-code fa-xl"></i>
                 <strong>My Projects</strong>
             </button>
+            <br>
+            <button id="contact"
+                    class="btn"
+                    type="submit"
+                    formaction="contact.html">
+                <i class="fa-solid fa-envelope fa-xl"></i>
+                <strong>Contact me!</strong>
+            </button>
         </form>
     </main>
-
 </body>
 <footer>
     &copy; Andrew Gardner 2023

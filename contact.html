@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="StyleSheets/contact.css">
+    <link rel="icon" href="Images/faviconw.ico">
+</head>
+<body>
+    <div class="container">
+        <form  action="https://formsubmit.co/9a19b7e8b99c539885188347dd06847c" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display:none;">
+
+            <!--Disable Captcha-->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!--Send to submit page-->
+            <input type="hidden" name="_next" value="https://atg25.github.io/LinksPage/contact.html">
+
+            <h2>Get in touch</h2>
+            <p>Fill out this form to email me with your information</p>
+            <input type="text" id="name" name="Name" placeholder="Your name" required>
+            <input type="email" id="email" name="Email" placeholder="Email address" required>
+            <input type="text" id="phone" name="Phone" placeholder="Phone no." >
+            <textarea id="message" name="Message" rows="4" placeholder="Your message" required></textarea>
+            <button type="submit" id="send" onclick="message()">Send email</button>
+            <div class="message">
+                <div class="success" id="success">Your email has been sent!</div>
+            </div>
+        </form>
+    </div>
+<script src="submit.js"></script>
+</body>
+</html>

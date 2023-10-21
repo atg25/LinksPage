@@ -3,28 +3,30 @@
     margin-right: auto;
     text-align: center;
     font-family: sans-serif;
-
 }
-html{
-    background-image: linear-gradient(lightslategrey, black);
-    background-size: cover;
-    height: 100%
-}
-header{
+body{
+    margin: 0;
+    padding: 0;
     color: white;
-    margin-bottom: 30px;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(lightslategrey, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #pfp {
     height: 96px;
     width: 96px;
     display: block;
-    margin-top: 75px;
     border-radius: 50%;
     object-fit: contain;
     object-position: initial;
 }
 
-button {
+#GHub, #LnkdIn, #res, #contact {
     max-width: 700px;
     width: 80%;
     min-width: 425px;
@@ -37,8 +39,26 @@ button {
     font-size: medium;
     transition: background-color 150ms;
     cursor: pointer;
+    border-style: solid;
 }
-button:hover{
+
+#res:hover{
+    background-color: white;
+    color: black;
+}
+#LnkdIn:hover{
+    background-color: white;
+    color: black;
+}
+#GHub:hover{
+    background-color: white;
+    color: black;
+}
+#contact:hover{
+    background-color: white;
+    color: black;
+}
+#instagram{
     background-color: white;
     color: black;
 }
@@ -47,8 +67,10 @@ i{
     padding-top: 10px;
 }
 footer{
+    background-color: black;
     text-align: center;
     color: white;
 }
-
-
+p{
+    color: white;
+}
