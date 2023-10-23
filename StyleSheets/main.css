@@ -12,7 +12,7 @@ body{
 html {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(115deg, hsl(230.52631578947367deg,40.772532188841204%,45.68627450980392%) 5%, hsl(325.52631578947364deg,40.772532188841204%,45.68627450980392%) 100%);
+    background-image: linear-gradient(115deg, hsl(230.52631578947367deg,40.772532188841204%,45.68627450980392%) 5%, seagreen 100%);
     display: flex;
     align-items: center;
     justify-content: center;
